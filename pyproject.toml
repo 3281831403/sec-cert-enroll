@@ -1,0 +1,11 @@
+[project]
+name = "sec-cert-enroll"
+version = "0.1.0"
+description = "Certificate enrollment security exercise with ten defects"
+requires-python = ">=3.9"
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra"
